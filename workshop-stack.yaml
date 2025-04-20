@@ -12,7 +12,7 @@ Parameters:
     AllowedPattern: '.+-.+-\d(,.+-.+-\d)*'
     Description: A comma-separated list of AWS regions
     ConstraintDescription: must contain a comma-separated list of AWS regions. We assume regions are like us-east-1 (two dashes, digit at the end)
-    Default: us-west-2
+    Default: us-east-1
 
 Resources:
   LabLambdaRole:
